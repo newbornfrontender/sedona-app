@@ -1,6 +1,12 @@
+<!-- Блок введения [START] -->
 <h1 align="center">Sedona App</h1>
+
 Верстка адаптивного шаблона "Sedona" с хостингом на Firebase
 
+> Для работы с шаблоном необходимо установить <a title="Официальный сайт" href="https://yarnpkg.com/" hreflang="en">Yarn</a>
+<!-- Блок введения [END] -->
+
+<!-- Блок команды [START] -->
 <h2 align="center">Команды</h2>
 
 ### Установка
@@ -32,6 +38,10 @@ $ yarn lint
 ```bash
 $ yarn test:unit
 ```
+<!-- Блок команды [END] -->
 
+<!-- Блок лицензии [START] -->
 <h2 align="center">Лицензия</h2>
+
 <a title="Лицензия" href="/LICENSE" hreflang="en">MIT</a>
+<!-- Блок лицензии [END] -->
