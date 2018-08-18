@@ -1,3 +1,5 @@
+'use strict';
+
 /* tslint:disable:no-console */
 
 import { register } from 'register-service-worker';

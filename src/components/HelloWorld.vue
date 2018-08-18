@@ -33,6 +33,8 @@
 </template>
 
 <script lang="ts">
+'use strict';
+
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
