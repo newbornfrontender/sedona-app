@@ -5,27 +5,27 @@
 
 <h3>Установка</h3>
 ```bash
-yarn
+$ yarn
 ```
 
 <h3>Компиляция сборки с горячей перезагузкой</h3>
 ```bash
-yarn serve
+$ yarn serve
 ```
 
 <h3>Компиляция и минификация сборки</h3>
 ```bash
-yarn build
+$ yarn build
 ```
 
 <h3>Линтинг и исправление ошибок</h3>
 ```bash
-yarn lint
+$ yarn lint
 ```
 
 <h3>Unit тесты</h3>
 ```bash
-yarn test:unit
+$ yarn test:unit
 ```
 
 <h2 align="center">Лицензия</h2>
