@@ -1,6 +1,6 @@
 {
-  "name": "sedona-app",
-  "short_name": "sedona-app",
+  "name": "Sedona App",
+  "short_name": "Sedona",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
