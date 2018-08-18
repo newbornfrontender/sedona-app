@@ -1,7 +1,7 @@
 <!-- Блок введения [START] -->
 <h1 align="center">Sedona App</h1>
 
-Верстка адаптивного шаблона "Sedona" с хостингом на Firebase
+Верстка адаптивного шаблона "Sedona" при помощи Vue CLI с хостингом на Firebase
 
 > Для работы с шаблоном необходимо установить <a title="Официальный сайт" href="https://yarnpkg.com/" hreflang="en">Yarn</a>
 <!-- Блок введения [END] -->
