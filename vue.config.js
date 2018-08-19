@@ -9,9 +9,9 @@ module.exports = {
   productionSourceMap: undefined,
   parallel: undefined,
   css: {
-    sourceMap: true
+    sourceMap: true,
   },
   pwa: {
-    name: 'Sedona App'
-  }
-}
+    name: 'Sedona App',
+  },
+};

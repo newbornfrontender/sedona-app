@@ -4,6 +4,7 @@
 Верстка адаптивного шаблона "Sedona" при помощи Vue CLI с хостингом на Firebase
 
 > Для работы с шаблоном необходимо установить <a title="Официальный сайт" href="https://yarnpkg.com/" hreflang="en">Yarn</a>
+
 <!-- Блок введения [END] -->
 
 <!-- Блок команды [START] -->
@@ -38,10 +39,12 @@ $ yarn lint
 ```bash
 $ yarn test:unit
 ```
+
 <!-- Блок команды [END] -->
 
 <!-- Блок лицензии [START] -->
 <h2 align="center">Лицензия</h2>
 
 <a title="Лицензия" href="/LICENSE" hreflang="en">MIT</a>
+
 <!-- Блок лицензии [END] -->
