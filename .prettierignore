@@ -4,7 +4,11 @@
 .lintstagedrc
 .browserslistrc
 .prettierignore
-
+.prettierrc.js
+babel.config.js
+jest.config.js
+tsconfig.json
+tslint.json
 LICENSE
 
 *.html
