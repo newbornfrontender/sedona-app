@@ -6,11 +6,10 @@
   "scripts": {
     "prettier:check": "tslint-config-prettier-check ./tslint.json",
     "prettier:write": "prettier ./{src,public,test}/**/*.{js,jsx,ts,tsx,vue} --write",
-    "prettier:write:all": "prettier ./**/* --write",
+    "prettier:write:all": "prettier ./** --write",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "serve": "vue-cli-service serve",
-    "prebuild": "yarn prettier:check && yarn prettier:write",
     "build": "vue-cli-service build"
   },
   "dependencies": {
