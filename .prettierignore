@@ -1,0 +1,16 @@
+.gitignore
+.editorconfig
+.huskyrc
+.lintstagedrc
+.browserslistrc
+.prettierignore
+
+LICENSE
+
+*.html
+*.txt
+*.ico
+*.png
+*.svg
+*.log
+*.lock
