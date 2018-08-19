@@ -1,13 +1,18 @@
 {
-  "defaultSeverity": "warning",
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
-  "linterOptions": {
-    "exclude": ["node_modules/**"]
+  "defaultSeverity": "warning",          /* The severity level used when a rule specifies "default" as its severity level. If undefined, "error" is used */
+  "extends": [                           /* The name of a built-in configuration preset, or a path or array of paths to other configuration files which are extended by this configuration. These values are handled using node module resolution semantics */
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {                     /*  */
+    "exclude": [                         /*  */
+      "./node_modules/**"
+    ]
   },
-  "rules": {
-    "interface-name": false,
-    "ordered-imports": false,
-    "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+  "rules": {                             /* A map of rules that will be used to lint TypeScript files. These rules apply to `.ts` and `.tsx` files */
+    "interface-name": false,             /* Requires interface names to begin with a capital "I" */
+    "ordered-imports": false,            /* Requires that import statements be alphabetized */
+    "object-literal-sort-keys": false,   /* Checks ordering of keys in object literals */
+    "no-consecutive-blank-lines": false  /* Disallows one or more blank lines in a row */
   }
 }
