@@ -1,0 +1,16 @@
+{
+  "*.{js,jsx}": [
+    "yarn prettier:write",
+    "git add"
+  ],
+  "*.{ts,tsx}": [
+    "yarn prettier:write",
+    "yarn lint",
+    "git add"
+  ],
+  "*.vue": [
+    "yarn prettier:write",
+    "yarn lint",
+    "git add"
+  ]
+}
