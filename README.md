@@ -34,7 +34,8 @@ $ yarn build
 $ yarn lint
 ```
 
-### Unit тесты
+### Unit тест
+> В качестве теста используется Jest
 
 ```bash
 $ yarn test:unit
