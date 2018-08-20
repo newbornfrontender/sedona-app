@@ -1,3 +1,4 @@
+# Files
 .gitignore
 .editorconfig
 .huskyrc
@@ -11,6 +12,7 @@ tsconfig.json
 tslint.json
 LICENSE
 
+# Extensions
 *.html
 *.txt
 *.ico
