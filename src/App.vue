@@ -1,29 +1,66 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
-</template>
+  <section id="app">
+    <header class="main-header">
+      <nav class="site-nav">
+        <ul class="list nav-list">
+          <li class="list__item nav-list__item">
+            <img class="site-logo" src="" alt="">
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+            <span class="btn-dropdown btn-dropdown--open"></span>
+          </li>
+
+          <li class="list__item nav-list__item">
+            <ul class="list nav-list">
+              <li class="list__item nav-list__item nav-list__item--dropdown">
+                <router-link
+                  class="link nav-list__link"
+                  to="/"
+                >Главная</router-link>
+
+                <span class="btn-dropdown btn-dropdown--close"></span>
+              </li>
+
+              <li class="list__item nav-list__item nav-list__item--dropdown">
+                <router-link
+                  class="link nav-list__link"
+                  to="/gallery"
+                >Фото и видео</router-link>
+              </li>
+
+              <li
+                class="list__item nav-list__item nav-list__item--dropdown"
+              >
+                <router-link
+                  class="link nav-list__link"
+                  to="/gallery"
+                >
+                  <img class="site-logo" src="" alt="">
+                </router-link>
+              </li>
+
+              <li class="list__item nav-list__item nav-list__item--dropdown">
+                <router-link
+                  class="link nav-list__link"
+                  to="/review-form"
+                >Форма отзыва</router-link>
+              </li>
+
+              <li class="list__item nav-list__item nav-list__item--dropdown">
+                <a
+                  class="link nav-list__link"
+                  target="_blank"
+                  href="https://htmlacademy.ru/"
+                  hreflang="ru"
+                >Html Academy</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <router-view/>
+    </main>
+  </section>
+</template>
