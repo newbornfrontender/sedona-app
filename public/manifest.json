@@ -1,16 +1,23 @@
 {
   "name": "Sedona App",
   "short_name": "Sedona",
+  "description": "Тестовое описание",
+  "lang": "ru",
+  "dir": "ltr",
   "icons": [
     {
-      "src": "/img/icons/android-chrome-192x192.png",
-      "sizes": "192x192",
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 64x64 128x128"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-350x350.png",
+      "sizes": "350x350",
       "type": "image/png"
     },
     {
-      "src": "/img/icons/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/img/icons/safari-pinned-tab.svg",
+      "sizes": "any",
+			"type": "image/svg"
     }
   ],
   "start_url": "/index.html",
