@@ -3,12 +3,7 @@
     "yarn prettier:write",
     "git add"
   ],
-  "*.{ts,tsx}": [
-    "yarn prettier:write",
-    "yarn lint",
-    "git add"
-  ],
-  "*.vue": [
+  "*.{ts,tsx,vue}": [
     "yarn prettier:write",
     "yarn lint",
     "git add"
