@@ -4,8 +4,8 @@
     "tslint:recommended",
     "tslint-config-prettier"
   ],
-  "linterOptions": {                     /*  */
-    "exclude": [                         /*  */
+  "linterOptions": {                     /* ? */
+    "exclude": [                         /* ? */
       "./node_modules/**"
     ]
   },
